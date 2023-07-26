@@ -16,33 +16,38 @@
 		<a class="tab-pane show active d-block" id="hero01" role="tabpanel"
 			aria-labelledby="hero1"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=150"> <img
-			src="${contextPath}/resources/img/main/12345.png" class="today-image"
+			src="${contextPath}/resources/img/main/23.png" class="today-image"
 			data-log-props="" data-adsplatform=""
-			style="display: block; z-index: 1; position: absolute;">
+			style="display: block; z-index: 1; position: absolute;
+			width: 1200px; height: 500px;">
 		</a> <a class="tab-pane" id="hero02" role="tabpanel"
 			aria-labelledby="hero2"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=410"> <img
-			src="${contextPath}/resources/img/main/hero2.jpg" class="today-image"
+			src="${contextPath}/resources/img/main/12.png" class="today-image"
 			data-log-props="" data-adsplatform=""
-			style="display: block; z-index: 1; position: absolute;">
+			style="display: block; z-index: 1; position: absolute;
+			width: 1200px; height: 500px;">
 		</a> <a class="tab-pane" id="hero03" role="tabpanel"
 			aria-labelledby="hero3"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=330"> <img
-			src="${contextPath}/resources/img/main/hero3.jpg" class="today-image"
+			src="${contextPath}/resources/img/main/44.png" class="today-image"
 			data-log-props="" data-adsplatform=""
-			style="display: block; z-index: 1; position: absolute;">
+			style="display: block; z-index: 1; position: absolute;
+			width: 1200px; height: 500px;">
 		</a> <a class="tab-pane" id="hero04" role="tabpanel"
 			aria-labelledby="hero4"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=270"> <img
-			src="${contextPath}/resources/img/main/hero4.jpg" class="today-image"
+			src="${contextPath}/resources/img/main/25.png" class="today-image"
 			data-log-props="" data-adsplatform=""
-			style="display: block; z-index: 1; position: absolute;">
+			style="display: block; z-index: 1; position: absolute;
+			width: 1200px; height: 500px;">
 		</a> <a class="tab-pane" id="hero05" role="tabpanel"
 			aria-labelledby="hero5"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=420"> <img
-			src="${contextPath}/resources/img/main/hero5.jpg" class="today-image"
+			src="${contextPath}/resources/img/main/14.png" class="today-image"
 			data-log-props="" data-adsplatform=""
-			style="display: block; z-index: 1; position: absolute;">
+			style="display: block; z-index: 1; position: absolute;
+			width: 1200px; height: 500px;">
 		</a>
 		<!-- tabCaller 버튼영역 -->
 
@@ -55,23 +60,28 @@
 			<a class="list-group-item list-group-item-action p-0 active"
 				id="hero1" data-bs-toggle="list" href="#hero01" role="tab"
 				aria-controls="hero01"> <img
-				src="${contextPath}/resources/img/main/tab1.jpg">
+				src="${contextPath}/resources/img/main/70.png"
+				style="width: 176px; height: 56px">
 			</a> <a class="list-group-item list-group-item-action p-0" id="hero2"
 				data-bs-toggle="list" href="#hero02" role="tab"
 				aria-controls="hero02"> <img
-				src="${contextPath}/resources/img/main/tab2.jpg">
+				src="${contextPath}/resources/img/main/70.png"
+				style="width: 176px; height: 56px">
 			</a> <a class="list-group-item list-group-item-action p-0" id="hero3"
 				data-bs-toggle="list" href="#hero03" role="tab"
 				aria-controls="hero03"> <img
-				src="${contextPath}/resources/img/main/tab3.jpg">
+				src="${contextPath}/resources/img/main/70.png"
+				style="width: 176px; height: 56px">
 			</a> <a class="list-group-item list-group-item-action p-0" id="hero4"
 				data-bs-toggle="list" href="#hero04" role="tab"
 				aria-controls="hero04"> <img
-				src="${contextPath}/resources/img/main/tab4.jpg">
+				src="${contextPath}/resources/img/main/70.png"
+				style="width: 176px; height: 56px">
 			</a> <a class="list-group-item list-group-item-action p-0" id="hero5"
 				data-bs-toggle="list" href="#hero05" role="tab"
 				aria-controls="hero05"> <img
-				src="${contextPath}/resources/img/main/tab5.jpg">
+				src="${contextPath}/resources/img/main/70.png"
+				style="width: 176px; height: 56px">
 			</a>
 		</div>
 		<!-- tab본문영역, caller 선택시 id값에 맞는 tab이 표출된다. -->
@@ -86,8 +96,8 @@
 <div class="container">
 	<div class="row">
 		<div class="d-flex p-0 align-items-center gap-3 mt-5">
-			<p class="fs-3 fw-bold">오늘의 발견</p>
-			<p class="fs-6">| 오늘 엄선한 가장 HOT한 상품!</p>
+			<p class="fs-3 fw-bold">NEW</p>
+			<p class="fs-6">| HOT PICK |</p>
 		</div>
 	</div>
 	<div class="row border p-3">
