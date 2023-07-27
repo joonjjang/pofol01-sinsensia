@@ -18,7 +18,7 @@ import net.coobird.thumbnailator.Thumbnails;
 @Controller
 public class FileDownloadController {
 	//파일경로
-	private static String CURR_IMAGE_REPO_PATH = "C:\\sopang\\file_repo";
+	private static String CURR_IMAGE_REPO_PATH = "C:\\sinsensia\\file_repo";
 	
 	//업로드/인서트 된 파일 불러오기, goods_id와 fileName값을 받아 풀력한다.
 	@RequestMapping("/download")

@@ -19,35 +19,35 @@
 			src="${contextPath}/resources/img/main/23.png" class="today-image"
 			data-log-props="" data-adsplatform=""
 			style="display: block; z-index: 1; position: absolute;
-			width: 1200px; height: 500px;">
+			width: 1020px; height: 451px;">
 		</a> <a class="tab-pane" id="hero02" role="tabpanel"
 			aria-labelledby="hero2"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=410"> <img
 			src="${contextPath}/resources/img/main/12.png" class="today-image"
 			data-log-props="" data-adsplatform=""
 			style="display: block; z-index: 1; position: absolute;
-			width: 1200px; height: 500px;">
+			width: 1020px; height: 451px;">
 		</a> <a class="tab-pane" id="hero03" role="tabpanel"
 			aria-labelledby="hero3"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=330"> <img
 			src="${contextPath}/resources/img/main/44.png" class="today-image"
 			data-log-props="" data-adsplatform=""
 			style="display: block; z-index: 1; position: absolute;
-			width: 1200px; height: 500px;">
+			width: 1020px; height: 451px;">
 		</a> <a class="tab-pane" id="hero04" role="tabpanel"
 			aria-labelledby="hero4"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=270"> <img
 			src="${contextPath}/resources/img/main/25.png" class="today-image"
 			data-log-props="" data-adsplatform=""
 			style="display: block; z-index: 1; position: absolute;
-			width: 1200px; height: 500px;">
+			width: 1020px; height: 451px;">
 		</a> <a class="tab-pane" id="hero05" role="tabpanel"
 			aria-labelledby="hero5"
 			href="${contextPath}/goods/goodsDetail.do?goods_id=420"> <img
 			src="${contextPath}/resources/img/main/14.png" class="today-image"
 			data-log-props="" data-adsplatform=""
 			style="display: block; z-index: 1; position: absolute;
-			width: 1200px; height: 500px;">
+			width: 1020px; height: 451px;">
 		</a>
 		<!-- tabCaller 버튼영역 -->
 

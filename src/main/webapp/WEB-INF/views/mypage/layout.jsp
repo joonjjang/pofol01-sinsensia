@@ -68,12 +68,30 @@
 				class="position-absolute top-100 start-0 bg-light px-3 py-4 d-flex flex-column border secondary-subtle"
 				style="width: 150px;">
 				<p class="fw-bold text-black mb-2">MYpage</p>
+				<c:choose>
+				<c:when test="${side_menu eq 'admin_mode'}">
+				
+				
+				<a href="${contextPath}/mypage/listMyOrderHistory.do"
+					class="text-decoration-none mb-2 small sideMenu listMyOrderHistory">상품등록</a>
 				<a href="${contextPath}/mypage/listMyOrderHistory.do"
 					class="text-decoration-none mb-2 small sideMenu listMyOrderHistory">주문목록</a>
 				<a href="${contextPath}/cart/myCartList.do"
 					class="text-decoration-none mb-2 small sideMenu myCartList">장바구니</a>
 				<a href="${contextPath}/mypage/myDetailInfo.do"
 					class="text-decoration-none mb-0 small sideMenu myDetailInfo">내정보</a>
+				</c:when>
+
+				<c:otherwise>
+				<a href="${contextPath}/mypage/listMyOrderHistory.do"
+					class="text-decoration-none mb-2 small sideMenu listMyOrderHistory">주문목록</a>
+				<a href="${contextPath}/cart/myCartList.do"
+					class="text-decoration-none mb-2 small sideMenu myCartList">장바구니</a>
+				<a href="${contextPath}/mypage/myDetailInfo.do"
+					class="text-decoration-none mb-0 small sideMenu myDetailInfo">내정보</a>
+				
+				</c:otherwise>
+				</c:choose>
 			</div>
 			<!-- left 메뉴 -->
 			

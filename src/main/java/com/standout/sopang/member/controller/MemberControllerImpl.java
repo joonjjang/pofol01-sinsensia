@@ -80,7 +80,7 @@ public class MemberControllerImpl extends BaseController implements MemberContro
 			//회원가입을 try, addMember 성공시 안내문구와 함께  login페이지로 이동한다.
 		    memberService.addMember(_memberVO);
 		    message  = "<script>";
-		    message +=" alert('sopang에 오신걸 환영합니다!');";
+		    message +=" alert('sinsensia에 오신걸 환영합니다!');";
 		    message += " location.href='"+request.getContextPath()+"/member/login.do';";
 		    message += " </script>";
 		    

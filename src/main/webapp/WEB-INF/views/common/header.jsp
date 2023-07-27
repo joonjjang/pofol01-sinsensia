@@ -94,12 +94,12 @@
 
 						<c:choose>
 
-							<c:when test="${isLogOn==true and memberInfo.member_id =='1111'}">
+							<c:when test="${isLogOn==true and memberInfo.member_id =='admin'}">
 								<div class="d-flex align-items-center gap-2">
 									<a href="${contextPath}/cart/myCartList.do"
 										class="text-decoration-none"><span class="samll fw-bold">${memberInfo.member_name}
 									</span> </a> <a href="${contextPath}/admin/goods/adminGoodsMain.do"
-										class="text-decoration-none samll btn btn-outline-secondary btn-sm p-0 px-2 rounded-0 bg-white">sopang
+										class="text-decoration-none samll btn btn-outline-secondary btn-sm p-0 px-2 rounded-0 bg-white">sinsensia
 										관리 </a> <a href="${contextPath}/member/logout.do"
 										class="text-decoration-none samll btn btn-outline-secondary btn-sm p-0 px-2 rounded-0 bg-white">로그아웃</a>
 								</div>
