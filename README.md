@@ -1,5 +1,5 @@
-# sopang
-공부한 추억이 담긴 쇼핑몰로 의미있게 만들어 보기로 했다.<br><br>
+# sinsensia
+sopang을 베이스로 기능 추가와 기능 이해를 통해 기본적이 쇼핑몰 구성에 대한 공부와 이해를 한 내용
 
 기획 excel<br>
 https://docs.google.com/spreadsheets/d/1ZLznMpMZuEis_r3u2yxiqg-ICeju9GGz/edit?usp=sharing&ouid=114041644283327531753&rtpof=true&sd=true
